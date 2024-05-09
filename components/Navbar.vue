@@ -6,13 +6,11 @@ const toggleDark = useToggle(isDark);
 
 <template>
   <nav>
-    <ul
-      class="list-none flex flex-row items-center justify-center space-x-8 p-0"
-    >
-      <li v-for="link in links" :key="link">
-        <NuxtLink :to="link.path">
-          <div :class="`${link.icon} text-3xl`" />
-          <span class="text-[#0495b1]">
+    <ul class="list-none p-0 m-0">
+      <li v-for="link in links" :key="link" class="my-3">
+        <NuxtLink :to="link.path" class="decoration-none">
+          <div :class="`${link.icon} text-3xl inline-block`" />
+          <span class="text-brian-blue">
             {{link.name}}
           </span>
         </NuxtLink>
@@ -45,8 +43,8 @@ export default {
           icon: 'i-solar-home-2-broken',
         },
         {
-          name: 'About',
-          path: '/about',
+          name: 'Blog',
+          path: '/blog',
           icon: 'i-solar-sunset-broken'
         },
       ]
