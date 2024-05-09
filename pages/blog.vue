@@ -20,8 +20,8 @@ function formatDate(dateString: string): string {
   <section>
     <h1>Blogs</h1>
     <p>
-      Below are some of my most recent blogs. Want to see the full list? Check
-      out the archives!
+      Below are some of my most recent blogs that cover a wide range of topics.
+      Want to see the full list? Check out the archives!
     </p>
     <ContentList :query="query" v-slot="{ list }">
       <div v-for="(blog, blogIndex) in list" :key="blog._path">
