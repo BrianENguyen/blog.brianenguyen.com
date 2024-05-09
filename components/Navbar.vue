@@ -8,12 +8,18 @@ const toggleDark = useToggle(isDark);
   <nav>
     <ul class="list-none p-0 m-0">
       <li v-for="link in links" :key="link" class="my-3">
-        <NuxtLink :to="link.path" class="decoration-none">
+        <NuxtLink v-if="!link.external" :to="link.path" class="decoration-none">
           <div :class="`${link.icon} text-3xl inline-block`" />
-          <span class="text-brian-blue">
-            {{link.name}}
+          <span class="ml-2 text-black dark:text-white">
+            {{ link.name }}
           </span>
         </NuxtLink>
+        <a v-else :href="link.path" target="_blank" class="decoration-none">
+          <div :class="`${link.icon} text-3xl inline-block`" />
+          <span class="ml-2 text-black dark:text-white">
+            {{ link.name }}
+          </span>
+        </a>
       </li>
       <li>
         <div
@@ -22,11 +28,6 @@ const toggleDark = useToggle(isDark);
                 transition-color duration-300 dark:text-[#79c2d0] dark:hover:text-[#efefef]"
           @click="toggleDark()"
         />
-      </li>
-      <li>
-        <a href="https://github.com/buraiyen/BENplate" target="_blank">
-          <div class="i-iconoir-github cursor-pointer text-3xl" />
-        </a>
       </li>
     </ul>
   </nav>
@@ -46,6 +47,12 @@ export default {
           name: 'Blog',
           path: '/blog',
           icon: 'i-solar-sunset-broken'
+        },
+        {
+          name: 'Github',
+          path: 'https://github.com/Buraiyen',
+          icon: 'i-iconoir-github',
+          external: true
         },
       ]
     }

@@ -6,7 +6,7 @@
     >
       <slot />
     </div>
-    <div class="col-span-2 p-1">
+    <div class="col-span-2 p-3">
       <span class="text-4xl">Brian Nguyen</span>
       <Navbar />
     </div>
