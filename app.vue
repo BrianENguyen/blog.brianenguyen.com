@@ -5,9 +5,15 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
 html {
   color: #202020;
   background-color:  #f8feff ;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html a {
@@ -32,9 +38,13 @@ html.dark a:hover {
   color: #efefef;
 }
 
-body, html {
-  margin: 0px;
-  padding: 0px;
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 200;
 }
 
 .fade-enter-active,
