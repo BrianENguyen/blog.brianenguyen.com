@@ -1,13 +1,14 @@
 <template>
   <NuxtLayout>
-    <NuxtPage />
     <Navbar />
+    <NuxtPage />
   </NuxtLayout>
 </template>
 
 <style>
 html {
   color: #202020;
+  background-color:  #f8feff ;
 }
 
 html a {
@@ -30,6 +31,11 @@ html.dark a {
 }
 html.dark a:hover {
   color: #efefef;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
 }
 
 .fade-enter-active,
