@@ -12,6 +12,9 @@ const toggleDark = useToggle(isDark);
       <li v-for="link in links" :key="link">
         <NuxtLink :to="link.path">
           <div :class="`${link.icon} text-3xl`" />
+          <span class="text-[#0495b1]">
+            {{link.name}}
+          </span>
         </NuxtLink>
       </li>
       <li>
