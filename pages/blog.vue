@@ -20,15 +20,19 @@ function formatDate(dateString: string): string {
   <section>
     <ContentList :query="query" v-slot="{ list }">
       <div v-for="(blog, blogIndex) in list" :key="blog._path">
-        <div class="sm:grid sm:grid-cols-12">
-          <div class="col-span-2">
-            <p>{{ formatDate(blog.date) }}</p>
-          </div>
-          <div class="col-span-10">
-            <h2>{{ blog.title }}</h2>
-            <p>{{ blog.description }}</p>
-            <NuxtLink :to="blog._path">Read More</NuxtLink>
-          </div>
+        <div
+          class="rounded-md 
+            dark:bg-[#131313]
+              min-h-[200px] h-auto
+              p-4
+              transition-colors
+              border-1px dark:border-gray-light border-solid
+              border-l-[4px] hover:border-l-brian-blue hover:border-[#434a57]"
+        >
+          <p>{{ formatDate(blog.date) }}</p>
+          <h2>{{ blog.title }}</h2>
+          <p>{{ blog.description }}</p>
+          <NuxtLink :to="blog._path">Read More</NuxtLink>
         </div>
         <hr class="text-[#454545]" v-if="!(blogIndex === list.length - 1)" />
       </div>
