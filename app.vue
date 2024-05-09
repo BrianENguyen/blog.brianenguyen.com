@@ -38,6 +38,14 @@ html.dark a:hover {
   color: #efefef;
 }
 
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+#main-content {
+  font-size: 18px;
+}
 
 h1,
 h2,
