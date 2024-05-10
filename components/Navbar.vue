@@ -49,6 +49,11 @@ export default {
           icon: 'i-solar-sunset-broken'
         },
         {
+          name: 'Archive',
+          path: '/archive',
+          icon: 'i-solar-database-broken'
+        },
+        {
           name: 'Github',
           path: 'https://github.com/Buraiyen',
           icon: 'i-iconoir-github',
