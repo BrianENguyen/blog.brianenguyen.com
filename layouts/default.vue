@@ -1,9 +1,9 @@
 <template>
-  <div class="grid grid-cols-12 gap-0 m-0 p-0">
+  <div class="grid grid-cols-12">
     <div class="col-span-2 p-1"></div>
     <div
       id="main-content"
-      class="col-span-8 m-0 mx-auto p-12 min-h-100vh bg-white dark:bg-#1d1d1d border-l-solid border-r-solid border-#525252 border-1"
+      class="col-span-8 m-0 p-12 min-h-100vh bg-white dark:bg-#1d1d1d border-l-solid border-r-solid border-#525252 border-1"
     >
       <slot />
     </div>
