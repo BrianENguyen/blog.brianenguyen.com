@@ -15,6 +15,11 @@ function getMonth(dateString) {
   return date.toLocaleString('en-US', { month: 'long' });
 }
 
+function convertMonthToDigit(month) {
+  const date = Date.parse(month + "1, 1999");
+  return new Date(date).getMonth() + 1
+}
+
 const blogs = await queryContent('blog')
   .only(['title', 'date', '_path'])
   .sort({ date: -1 })
@@ -44,10 +49,14 @@ blogs.forEach(blog => {
     <div v-for="(yearBlogs, year) in blogsByYear" :key="year">
       <h2>{{ year.replace(/^\d+_/, '' ) }}</h2>
       <div v-for="(monthBlogs, month) in yearBlogs" :key="month">
-        <h3>
-          {{ month }} ({{ monthBlogs.length }}
-          {{ monthBlogs.length > 1 ? 'blogs' : 'blog' }})
-        </h3>
+        <NuxtLink
+          :to="`/archive/${year.replace(/^\d+_/, '' )}/${convertMonthToDigit(month)}/`"
+        >
+          <h3>
+            {{ month }} ({{ monthBlogs.length }}
+            {{ monthBlogs.length > 1 ? 'blogs' : 'blog' }})
+          </h3>
+        </NuxtLink>
       </div>
     </div>
   </div>
