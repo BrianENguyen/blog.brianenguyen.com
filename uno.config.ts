@@ -15,6 +15,7 @@ export default defineConfig({
       brianBlueLight: '#d4f3f9',
       grayLight: '#282c34',
       black: '#202020',
+      gray: '#cdd9e5',
     },
   },
   presets: [presetIcons({ prefix: 'i-' }), presetUno()],
