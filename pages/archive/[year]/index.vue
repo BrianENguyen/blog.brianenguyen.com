@@ -39,7 +39,7 @@ blogs.forEach(blog => {
 <template>
   <section :id="yearParam">
     <h1>Blogs from {{ yearParam }}</h1>
-    <div v-for="(blog, i) in filteredBlogs" :key="i">
+    <div v-for="(blog, i) in filteredBlogs" :key="i" class="mb-4">
       <NuxtLink
         :to="blog._path"
         class="text-black dark:!text-white no-underline hover:!text-brian-blue"
