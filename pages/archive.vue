@@ -19,7 +19,7 @@ function formatDate(dateString) {
 }
 
 const blogs = await queryContent('blog')
-  .only(['title', 'date', 'description', '_path'])
+  .only(['title', 'date', '_path'])
   .sort({ date: -1 })
   .find()
 
@@ -27,6 +27,7 @@ let blogsByYear = {};
 
 blogs.forEach(blog => {
   let year = getYear(blog.date);
+  year = `0_${year}`;
   if (blogsByYear[year] === undefined) {
     blogsByYear[year] = [];
     blogsByYear[year].push(blog)
@@ -41,11 +42,10 @@ blogs.forEach(blog => {
   <div>
     <h1>Archive</h1>
     <div v-for="(blogs, i) in blogsByYear" :key="i">
-      <h2>{{ i }}</h2>
+      <h2>{{ i.replace(/^\d+_/, '') }}</h2>
       <div v-for="blog in blogs" :key="blog.title" class="my-2">
         <p>{{ formatDate(blog.date) }}</p>
         <NuxtLink :to="blog._path">{{ blog.title }}</NuxtLink>
-        <p>{{ blog.description }}</p>
       </div>
     </div>
   </div>
