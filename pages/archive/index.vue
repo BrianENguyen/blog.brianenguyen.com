@@ -50,7 +50,7 @@ blogs.forEach(blog => {
       <h2>{{ year.replace(/^\d+_/, '' ) }}</h2>
       <div v-for="(monthBlogs, month) in yearBlogs" :key="month">
         <NuxtLink
-          :to="`/archive/${year.replace(/^\d+_/, '' )}/${convertMonthToDigit(month)}/`"
+          :to="`/archive/${year.replace(/^\d+_/, '' )}/${convertMonthToDigit(month)}`"
         >
           <h3>
             {{ month }} ({{ monthBlogs.length }}
