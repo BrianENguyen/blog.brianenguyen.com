@@ -37,7 +37,7 @@ blogs.forEach(blog => {
 });
 </script>
 <template>
-  <section :id="yearParam">
+  <section :id="yearParam" v-if="filteredBlogs.length">
     <h1>Blogs from {{ yearParam }}</h1>
     <div v-for="(blog, i) in filteredBlogs" :key="i" class="mb-4">
       <NuxtLink
@@ -48,5 +48,9 @@ blogs.forEach(blog => {
         <span>{{ blog.title }}</span>
       </NuxtLink>
     </div>
+  </section>
+
+  <section :id="yearParam" v-else>
+    <h1>No blogs from {{ yearParam }}!</h1>
   </section>
 </template>
