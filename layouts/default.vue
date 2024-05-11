@@ -11,23 +11,21 @@
       <slot />
     </div>
     <div class="col-span-2 p-3">
-      <span class="text-4xl">Brian Nguyen</span>
       <Navbar />
     </div>
   </div>
 
   <!-- Medium -->
-  <div class="sm:grid md:hidden grid-cols-12 mt-5">
+  <div class="sm:grid md:hidden grid-cols-12 mt-32 sm:mt-5">
     <div
       id="main-content"
-      class="col-span-9 ml-2 p-12 min-h-100vh 
+      class="rounded col-span-9 ml-2 p-12 min-h-100vh 
             bg-white 
             dark:bg-black "
     >
       <slot />
     </div>
     <div class="col-span-3 p-3">
-      <span class="text-2xl">Brian Nguyen</span>
       <Navbar />
     </div>
   </div>

@@ -12,6 +12,11 @@ function toggleMobileMenu() {
 
 <template>
   <nav class="hidden sm:block">
+    <NuxtLink to="/" class="decoration-none">
+      <span class="text-black dark:text-white text-2xl font-bold">
+        Brian's Blog
+      </span>
+    </NuxtLink>
     <ul class="list-none p-0 m-0">
       <li v-for="link in links" :key="link" class="my-3">
         <NuxtLink v-if="!link.external" :to="link.path" class="decoration-none">
@@ -41,12 +46,6 @@ function toggleMobileMenu() {
     class="fixed sm:hidden bg-white dark:bg-#0e1111 fixed w-[100%] h-100px z-[1] top-0 left-0 transition duration-300 shadow-2xl"
   >
     <div
-      class="i-solar-sun-outline dark:i-solar-moon-line-duotone 
-                cursor-pointer text-3xl text-[#0495b1] hover:text-[#015768]
-                transition-color duration-300 dark:text-[#79c2d0] dark:hover:text-[#efefef]"
-      @click="toggleDark()"
-    />
-    <div
       class="py-8 bg-white dark:bg-#0e1111 md:flex items-center justify-between mx-auto filter-none"
     >
       <div class="absolute  md:static top-8 md:flex items-center">
@@ -57,20 +56,29 @@ function toggleMobileMenu() {
         </NuxtLink>
       </div>
       <!-- Mobile menu button -->
-      <div
-        id="mobile-menu-btn"
-        class="block absolute right-3 md:hidden mr-10px cursor-pointer"
-        @click="toggleMobileMenu(isToggled)"
-      >
+
+      <div>
         <div
-          class="border-1 border-black dark:border-white border-solid w-30px mb-5px"
+          class="i-solar-sun-outline dark:i-solar-moon-line-duotone inline-block absolute right-16 
+                cursor-pointer text-3xl text-[#0495b1] hover:text-[#015768]
+                transition-color duration-300 dark:text-[#79c2d0] dark:hover:text-[#efefef]"
+          @click="toggleDark()"
         />
         <div
-          class="border-1 border-black dark:border-white border-solid w-30px mb-5px"
-        />
-        <div
-          class="border-1 border-black dark:border-white border-solid w-30px mb-5px"
-        />
+          id="mobile-menu-btn"
+          class="block absolute right-3 top-10 md:hidden mr-10px cursor-pointer"
+          @click="toggleMobileMenu(isToggled)"
+        >
+          <div
+            class="border-1 border-black dark:border-white border-solid w-30px mb-5px"
+          />
+          <div
+            class="border-1 border-black dark:border-white border-solid w-30px mb-5px"
+          />
+          <div
+            class="border-1 border-black dark:border-white border-solid w-30px mb-5px"
+          />
+        </div>
       </div>
       <!-- Mobile Nav list -->
       <ul
