@@ -123,7 +123,7 @@ export default {
         },
         {
           name: 'Github',
-          path: 'https://github.com/Buraiyen',
+          path: 'https://github.com/brianenguyen/blog.brianenguyen.com',
           icon: 'i-iconoir-github',
           external: true
         },
