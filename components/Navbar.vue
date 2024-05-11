@@ -114,7 +114,7 @@ export default {
         {
           name: 'Blog',
           path: '/blog',
-          icon: 'i-solar-sunset-broken'
+          icon: 'i-solar-document-add-broken'
         },
         {
           name: 'Archive',
