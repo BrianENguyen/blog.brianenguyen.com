@@ -1,3 +1,8 @@
+---
+title: Brian's Blog - BEN
+description: My blog site to document my life and interests
+---
+
 # Welcome to My Blog Site!
 
 Hi! I'm a software engineer. This website is mainly designed for me to document

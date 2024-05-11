@@ -6,6 +6,16 @@ const query: QueryBuilderParams = {
   path: '/blog',
   sort: [{date: -1}]
 }
+
+useHead({
+  title: 'Blog List - BEN',
+  meta: [
+    {
+      name: 'description',
+      content: 'List of my most recent blogs'
+    }
+  ]
+})
 </script>
 
 <template>

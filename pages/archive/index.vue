@@ -3,6 +3,16 @@ import { getYear } from '~/composables/getYear';
 import { getMonth } from '~/composables/getMonth';
 import { convertMonthToDigit } from '~/composables/convertMonthToDigit';
 
+useHead({
+  title: 'Archive - BEN',
+  meta: [
+    {
+      name: 'description',
+      content: 'Archive of all of my blogs'
+    }
+  ]
+})
+
 const blogs = await queryContent('blog')
   .only(['title', 'date', '_path'])
   .sort({ date: -1 })
