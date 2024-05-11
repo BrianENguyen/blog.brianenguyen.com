@@ -9,6 +9,16 @@ const route = useRoute()
 const yearParam = route.params.year;
 const monthParam = route.params.month;
 
+useHead({
+  title: `${yearParam}-${monthParam} Blogs - BEN`,
+  meta: [
+    {
+      name: 'description',
+      content: `List of blogs in ${yearParam}-${monthParam}`
+    }
+  ]
+})
+
 const blogs = await queryContent('blog')
   .only(['title', 'date', '_path'])
   .sort({ date: -1 })

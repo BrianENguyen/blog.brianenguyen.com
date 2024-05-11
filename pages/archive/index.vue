@@ -19,7 +19,6 @@ const blogs = await queryContent('blog')
   .find()
 
 let blogsByYear = {};
-
 blogs.forEach(blog => {
   let year = `0_${getYear(blog.date)}`;
   let month = getMonth(blog.date);

@@ -5,6 +5,16 @@ import { getYear } from '~/composables/getYear';
 const route = useRoute()
 const yearParam = route.params.year;
 
+useHead({
+  title: `${yearParam} Blogs - BEN`,
+  meta: [
+    {
+      name: 'description',
+      content: `List of blogs in ${yearParam}`
+    }
+  ]
+})
+
 const blogs = await queryContent('blog')
   .only(['title', 'date', '_path'])
   .sort({ date: -1 })
