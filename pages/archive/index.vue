@@ -12,14 +12,16 @@ useHead({
     }
   ]
 })
-
-const blogs = await queryContent('blog')
+const blogs = ref([]);
+const data = await queryContent('blog')
   .only(['title', 'date', '_path'])
   .sort({ date: -1 })
   .find()
 
+blogs.value = data;
+
 let blogsByYear = {};
-blogs.forEach(blog => {
+blogs.value.forEach(blog => {
   let year = `0_${getYear(blog.date)}`;
   let month = getMonth(blog.date);
 

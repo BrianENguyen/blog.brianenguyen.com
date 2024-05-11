@@ -15,14 +15,18 @@ useHead({
   ]
 })
 
-const blogs = await queryContent('blog')
+const blogs = ref([]);
+
+const data = await queryContent('blog')
   .only(['title', 'date', '_path'])
   .sort({ date: -1 })
   .find();
 
+blogs.value = data;
+
 const filteredBlogs = [];
 
-blogs.forEach(blog => {
+blogs.value.forEach(blog => {
   let year = getYear(blog.date);
   if (yearParam === year) {
     filteredBlogs.push(blog);
