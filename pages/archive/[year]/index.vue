@@ -45,6 +45,7 @@ blogs.value.forEach(blog => {
         <span>{{ blog.title }}</span>
       </NuxtLink>
     </div>
+    <BackButton />
   </section>
 
   <section :id="yearParam" v-else>
