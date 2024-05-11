@@ -1,9 +1,10 @@
 <template>
+  <!-- Large -->
   <div class="hidden md:grid grid-cols-12 mt-5">
     <div class="col-span-2 p-1"></div>
     <div
       id="main-content"
-      class="col-span-8 m-0 p-12 min-h-100vh 
+      class="rounded col-span-8 m-0 p-12 min-h-100vh 
             bg-white 
             dark:bg-black "
     >
@@ -14,7 +15,9 @@
       <Navbar />
     </div>
   </div>
-  <div class="grid md:hidden grid-cols-12 mt-5">
+
+  <!-- Medium -->
+  <div class="sm:grid md:hidden grid-cols-12 mt-5">
     <div
       id="main-content"
       class="col-span-9 ml-2 p-12 min-h-100vh 
