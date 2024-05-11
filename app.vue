@@ -13,7 +13,7 @@
 
 html {
   color: #202020;
-  background-color:  #f8feff ;
+  background-color:  #f0fcff ;
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
