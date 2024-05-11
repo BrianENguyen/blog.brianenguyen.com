@@ -1,24 +1,7 @@
 <script setup>
-function getYear(dateString) {
-  let year = "";
-  const regex = /\d{4}/;
-  const match = dateString.match(regex);
-  if (match) {
-    year = match[0];
-    return year;
-  }
-  return "";
-}
-
-function getMonth(dateString) {
-  const date = new Date(dateString);
-  return date.toLocaleString('en-US', { month: 'long' });
-}
-
-function convertMonthToDigit(month) {
-  const date = Date.parse(month + "1, 1999");
-  return new Date(date).getMonth() + 1
-}
+import { getYear } from '~/composables/getYear';
+import { getMonth } from '~/composables/getMonth';
+import { convertMonthToDigit } from '~/composables/convertMonthToDigit';
 
 const blogs = await queryContent('blog')
   .only(['title', 'date', '_path'])

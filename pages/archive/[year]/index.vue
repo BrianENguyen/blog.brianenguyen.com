@@ -1,23 +1,6 @@
 <script setup>
-function getYear(dateString) {
-  let year = "";
-  const regex = /\d{4}/;
-  const match = dateString.match(regex);
-  if (match) {
-    year = match[0];
-    return year;
-  }
-  return "";
-}
-
-function formatDate(dateString) {
-  const date = new Date(dateString);
-  const year = date.getFullYear();
-  const month = date.toLocaleString('en-US', { month: 'short' }).toUpperCase();
-  const day = date.getDate().toString().padStart(2, '0');
-
-  return `${year} ${month} ${day}`;
-}
+import { formatDate } from '~/composables/formatDate';
+import { getYear } from '~/composables/getYear';
 
 const route = useRoute()
 const yearParam = route.params.year;

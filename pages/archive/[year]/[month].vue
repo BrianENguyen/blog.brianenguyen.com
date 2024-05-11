@@ -1,38 +1,9 @@
 <script setup>
-function formatDate(dateString) {
-  const date = new Date(dateString);
-  const year = date.getFullYear();
-  const month = date.toLocaleString('en-US', { month: 'short' }).toUpperCase();
-  const day = date.getDate().toString().padStart(2, '0');
-
-  return `${year} ${month} ${day}`;
-}
-
-function convertMonthToName(month) {
-  const date = new Date(2024, month - 1, 1);
-  return date.toLocaleDateString('default', { month: 'long' });
-}
-
-function getYear(dateString) {
-  let year = "";
-  const regex = /\d{4}/;
-  const match = dateString.match(regex);
-  if (match) {
-    year = match[0];
-    return year;
-  }
-  return "";
-}
-
-function getMonth(dateString) {
-  const date = new Date(dateString);
-  return date.toLocaleString('en-US', { month: 'long' });
-}
-
-function convertMonthToDigit(month) {
-  const date = Date.parse(month + "1, 1999");
-  return new Date(date).getMonth() + 1
-}
+import { formatDate } from '~/composables/formatDate';
+import { convertMonthToName } from '~/composables/convertMonthToName';
+import { getYear } from '~/composables/getYear';
+import { getMonth } from '~/composables/getMonth';
+import { convertMonthToDigit } from '~/composables/convertMonthToDigit';
 
 const route = useRoute()
 const yearParam = route.params.year;
