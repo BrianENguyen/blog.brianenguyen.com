@@ -50,5 +50,6 @@ blogs.value.forEach(blog => {
 
   <section :id="yearParam" v-else>
     <h1>No blogs from {{ yearParam }}!</h1>
+    <BackButton />
   </section>
 </template>

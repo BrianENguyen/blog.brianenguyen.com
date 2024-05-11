@@ -58,5 +58,6 @@ blogs.value.forEach(blog => {
 
   <section :id="`${yearParam}-${monthParam}`" v-else>
     <h1>No blogs from {{ yearParam }} {{ convertMonthToName(monthParam) }}!</h1>
+    <BackButton />
   </section>
 </template>
