@@ -185,5 +185,3 @@ trip together. This time, we will document our adventures in Lincoln, Omaha, and
 more, so be on the lookout for that!
 
 ![Us posing in front of California Avenue sign](https://res.cloudinary.com/buraiyen/image/upload/v1708895072/brian-and-thu/blog/adventures-in-nebraska/snow-3_cnc4g8.jpg)
-
-::BackButton
