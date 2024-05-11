@@ -25,7 +25,7 @@ html a:hover {
 }
 html.dark {
   color-scheme: dark;
-  background-color: #212a2c;
+  background-color: #0d1011;
   color: #cdd9e5;
 }
 
