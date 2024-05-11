@@ -1,4 +1,4 @@
-# Brian Nguyen
+# Welcome to My Blog Site!
 
 Hi! I'm a software engineer. This website is mainly designed for me to document
 my life and to explore interests other than software development. I guess this is mainly
