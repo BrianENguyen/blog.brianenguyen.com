@@ -45,7 +45,9 @@ function toggleMobileMenu() {
   <nav
     class="fixed sm:hidden bg-white dark:bg-#0e1111 fixed w-[100%] h-100px z-[1] top-0 left-0 transition duration-300 shadow-2xl"
   >
-    {{ isToggled }}
+    <span class="hidden">
+      {{ isToggled }}
+    </span>
     <div
       class="py-8 bg-white dark:bg-#0e1111 md:flex items-center justify-between mx-auto filter-none"
     >
