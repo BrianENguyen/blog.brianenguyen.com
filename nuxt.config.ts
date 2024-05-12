@@ -1,10 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  // devServer: {
-  //   port: 8000,
-  //   host: '0.0.0.0',
-  // },
+  devServer: {
+    port: 3000,
+    host: 'localhost',
+  },
   app: {
     pageTransition: { name: 'fade', mode: 'out-in' },
   },
