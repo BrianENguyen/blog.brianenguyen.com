@@ -1,12 +1,12 @@
 ---
 title: Revamping My Personal Site With Nuxt!
-description: I visited Nebraska for a business trip, now I'm moving there in July! I discuss the events that led up to my relocation, how moving there will benefit me, and my experiences in Nebraska
+description: My main site was rebuilt with Nuxt! This blog documents why I made the switch from React and highlights the many features Nuxt provides that make web dev more enjoyable.
 date: 2023-09-25T15:00:00
 ---
 
 # Revamping Personal Site With Nuxt
 
-I am so happy to share that this website has been rebuilt with Nuxt3!
+I am so happy to share that my main site, [brianenguyen.com](https://brianenguyen.com), has been rebuilt with Nuxt3!
 This website has gone through three major versions, and this version is
 the best one and my absolute favorite. This blog details the different
 features that made me switch from React to Nuxt.
