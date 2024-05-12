@@ -43,4 +43,56 @@ reps. I've been lifting 15lb dumbbells for about 6 months, so this prompted me
 to finally upgrade to 20lbs. I did my first 20lb workout not to long ago and
 it was fairly challenging but not too difficult.
 
+I also tried <a href="https://ddpyoga.com">DDP Yoga</a> after hearing so great
+testimonies from it. It was very intense, but satisfying. I hope to use the
+program to help slim down my abs and to improve my flexibility.
+
+I plan to buy a bench press set at some point to try it for the first time. Yes, you
+read that right. I've never done bench presses in my life! I hope to use this
+so I can work on my chest and arms.
+
 ## Current Workout Routine
+
+Here's my current workout routine, with each category split into days
+
+### Cardio
+
+- 10 minutes of jump rope
+- 25 minutes of jogging
+
+## Strength
+
+- 10x2 bicep curls
+- 8x2 kickbacks
+- 8x2 military press
+- 8x2 reverse curl
+- 5x2 skull crushers
+- 5x2 front raises
+- 10x2 tricep extensions
+- 10x2 pushups
+- 16x2 one at a time curls
+
+## Yoga
+
+- DDP yoga for ~30 minutes
+
+## Abs
+
+All routines are during 45-second intervals, with 15-second break in between. Done in 3 sets
+
+- high crunches with 10lb ball
+- leg raises with 10lb ball
+- butterfly kicks
+- plank
+- Russian twists
+- low crunches with 10lb ball
+
+## Goals
+
+I'm currently 6ft 1in, 180lbs with 74 resting heart rate. I hope to lower my
+heart rate, gain 10lbs and more muscle mass by around July, and achieve a
+consecutive jump rope record. I'll be sure to upload another blog that documents
+my progress, so be on the lookout for that!
+
+If you're also interested in learning about fitness, <a href="https://youtu.be/7epJxJ9uTsE">click here</a>
+to watch Woolie's video about it!
