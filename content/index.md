@@ -6,11 +6,7 @@ description: My blog site to document my life and interests
 # Welcome to My Blog Site!
 
 Hi! I'm a software engineer. This website is mainly designed for me to document
-my life and to explore interests other than software development. I guess this is mainly
-a blog website, but I'm still thinking of what other features to put on here.
-Glad you decided to check out this site!
-
-Here are some fun facts of me to see if you would be interested in my site:
+my life and to explore interests other than software development. Here are some fun facts of me to see if you would be interested in my site:
 
 - I am a Linux enthusiast who actively supports online freedom and privacy, including organizations such as Wikipedia, the Free Software Movement, and the Electronic Frontier Foundation.
 - My favorite music genre is pop punk, and my favorite artist is Linkin Park.
