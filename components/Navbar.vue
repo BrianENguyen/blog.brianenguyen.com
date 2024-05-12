@@ -45,7 +45,7 @@ function toggleMobileMenu() {
   <nav
     class="fixed sm:hidden bg-white dark:bg-#0e1111 fixed w-[100%] h-100px z-[1] top-0 left-0 transition duration-300 shadow-2xl"
   >
-    <span class="hidden">
+    <span class="">
       {{ isToggled }}
     </span>
     <div
