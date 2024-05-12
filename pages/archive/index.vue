@@ -12,35 +12,42 @@ useHead({
     }
   ]
 })
+
 const blogs = ref([]);
-const data = await queryContent('blog')
-  .only(['title', 'date', '_path'])
-  .sort({ date: -1 })
-  .find()
 
-blogs.value = data;
+async function fetchBlogs() {
+  const data = await queryContent('blog')
+    .only(['title', 'date', '_path'])
+    .sort({ date: -1 })
+    .find()
 
-let blogsByYear = {};
-blogs.value.forEach(blog => {
-  let year = `0_${getYear(blog.date)}`;
-  let month = getMonth(blog.date);
+  let blogsByYear = {};
+  data.forEach(blog => {
+    let year = `0_${getYear(blog.date)}`;
+    let month = getMonth(blog.date);
 
-  if (!blogsByYear[year]) {
-    blogsByYear[year] = {};
-  }
+    if (!blogsByYear[year]) {
+      blogsByYear[year] = {};
+    }
 
-  if (!blogsByYear[year][month]) {
-    blogsByYear[year][month] = [];
-  }
+    if (!blogsByYear[year][month]) {
+      blogsByYear[year][month] = [];
+    }
 
-  blogsByYear[year][month].push(blog);
-});
+    blogsByYear[year][month].push(blog);
+  });
+  blogs.value = blogsByYear;
+}
+
+onMounted(() => {
+  fetchBlogs();
+})
 </script>
 
 <template>
   <div>
     <h1>Archive</h1>
-    <div v-for="(yearBlogs, year) in blogsByYear" :key="year">
+    <div v-for="(yearBlogs, year) in blogs" :key="year">
       <h2>{{ year.replace(/^\d+_/, '' ) }}</h2>
       <div v-for="(monthBlogs, month) in yearBlogs" :key="month">
         <NuxtLink
