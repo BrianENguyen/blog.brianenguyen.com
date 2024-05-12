@@ -20,7 +20,7 @@
     <div class="sm:grid md:hidden grid-cols-12 mt-32 sm:mt-5">
       <div
         id="main-content"
-        class="rounded col-span-9 ml-2 p-12 min-h-100vh 
+        class="rounded col-span-9 ml-2 p-4 min-h-100vh 
             bg-white 
             dark:bg-black "
       >
