@@ -9,6 +9,7 @@ Hi! I'm a software engineer. This website is mainly designed for me to document
 my life and to explore interests other than software development. Here are some fun facts of me to see if you would be interested in my site:
 
 - I am a Linux enthusiast who actively supports online freedom and privacy, including organizations such as Wikipedia, the Free Software Movement, and the Electronic Frontier Foundation.
+- I love photography. You can find a lot of my work related to it on this site
 - My favorite music genre is pop punk, and my favorite artist is Linkin Park.
 - I have two pomeranians: Kiki and Lucky, who I love dearly. My other pomeranian, Mimi, is on her new exciting journey in her new life.
 - Like most people in tech, I have a big passion for video games.

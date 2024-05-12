@@ -1,12 +1,12 @@
 ---
 title: My First Maternity Photography Session
 description: 
-date: 2022-06-30T15:00:00
+date: 2023-06-30T15:00:00
 ---
 
 # My First Maternity Photography Session
 
-> 30 Jun, 2022 · 1 min
+> 30 Jun, 2023 · 1 min
 
 I had the privilege of documenting my friends who are
 expecting their first baby. This is also my very first maternity photo shoot, and
