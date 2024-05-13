@@ -25,7 +25,7 @@ const fetchStatus = ref('fetching');
 
 async function fetchBlogs() {
   const data = await queryContent('blog')
-    .only(['title', 'date', '_path'])
+    .only(['title', 'date', 'edited', '_path'])
     .sort({ date: -1 })
     .find();
 
@@ -74,7 +74,14 @@ onMounted(() => {
           :to="blog._path"
           class="text-black dark:!text-white no-underline hover:!text-brian-blue"
         >
-          <time class="block text-gray">{{ formatDate(blog.date) }}</time>
+          <time class="block text-gray">
+            <span>
+              {{ formatDate(blog.date) }}
+            </span>
+            <span v-if="blog.edited" class="italic">
+              (Edited on {{ formatDate(blog.edited) }})
+            </span>
+          </time>
           <span>{{ blog.title }}</span>
         </NuxtLink>
       </div>

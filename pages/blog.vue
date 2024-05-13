@@ -38,7 +38,14 @@ useHead({
               border-1px dark:border-gray-light border-solid
               border-l-[4px] hover:border-l-brian-blue hover:border-[#434a57]"
         >
-          <p>{{ formatDate(blog.date) }}</p>
+          <time class="my-4">
+            <span>
+              {{ formatDate(blog.date) }}
+            </span>
+            <span v-if="blog.edited" class="italic">
+              (Edited on {{ formatDate(blog.edited) }})
+            </span>
+          </time>
           <h2>{{ blog.title }}</h2>
           <p>{{ blog.description }}</p>
           <NuxtLink :to="blog._path">Read More</NuxtLink>
