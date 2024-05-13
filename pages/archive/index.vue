@@ -14,6 +14,7 @@ useHead({
 })
 
 const blogs = ref([]);
+const fetchStatus = ref('fetching');
 
 async function fetchBlogs() {
   const data = await queryContent('blog')
@@ -37,9 +38,15 @@ async function fetchBlogs() {
     blogsByYear[year][month].push(blog);
   });
   blogs.value = blogsByYear;
+  fetchStatus.value = 'success';
 }
 
 onMounted(() => {
+  setTimeout(() => {
+    if (fetchStatus.value !== 'success') {
+      fetchStatus.value = 'delayed';
+    }
+  }, 2000)
   fetchBlogs();
 })
 </script>
@@ -47,7 +54,18 @@ onMounted(() => {
 <template>
   <div>
     <h1>Archive</h1>
-    <div v-for="(yearBlogs, year) in blogs" :key="year">
+    <div v-if="fetchStatus === 'fetching' || fetchStatus === 'delayed'">
+      <p>Loading blogs...</p>
+      <p v-if="fetchStatus === 'delayed'">
+        This seems to be taking a while to fetch the blogs. Maybe reload the
+        page?
+      </p>
+    </div>
+    <div
+      v-if="blogs && fetchStatus === 'success'"
+      v-for="(yearBlogs, year) in blogs"
+      :key="year"
+    >
       <h2>{{ year.replace(/^\d+_/, '' ) }}</h2>
       <div v-for="(monthBlogs, month) in yearBlogs" :key="month">
         <NuxtLink
