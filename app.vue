@@ -1,5 +1,11 @@
+<script setup>
+import { isDark } from '~/composables/dark';
+</script>
+
 <template>
   <div>
+    <NuxtLoadingIndicator v-if="isDark" color="#79c2d0" />
+    <NuxtLoadingIndicator v-else color="#0495b1" />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
