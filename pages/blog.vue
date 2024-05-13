@@ -27,30 +27,7 @@ useHead({
       <NuxtLink to="/archive">archives!</NuxtLink>
     </p>
     <ContentList :query="query" v-slot="{ list }">
-      <div v-for="(blog, i) in list.slice(0,10)" :key="i">
-        <div
-          class="rounded-md 
-            dark:bg-[#131313]
-              min-h-[200px] h-auto
-              p-4
-              my-4
-              transition-colors
-              border-1px dark:border-gray-light border-solid
-              border-l-[4px] hover:border-l-brian-blue hover:border-[#434a57]"
-        >
-          <time class="my-4">
-            <span>
-              {{ formatDate(blog.date) }}
-            </span>
-            <span v-if="blog.edited" class="italic">
-              (Edited on {{ formatDate(blog.edited) }})
-            </span>
-          </time>
-          <h2>{{ blog.title }}</h2>
-          <p>{{ blog.description }}</p>
-          <NuxtLink :to="blog._path">Read More</NuxtLink>
-        </div>
-      </div>
+      <BlogCard v-for="(blog ,i) in list.slice(0, 10)" :blog="blog" :key="i" />
     </ContentList>
   </section>
 </template>
