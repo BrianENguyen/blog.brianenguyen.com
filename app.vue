@@ -6,10 +6,12 @@ import { isDark } from '~/composables/dark';
   <div>
     <NuxtLoadingIndicator v-if="isDark" color="#79c2d0" />
     <NuxtLoadingIndicator v-else color="#0495b1" />
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-    <Footer />
+    <ClientOnly>
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
+      <Footer />
+    </ClientOnly>
   </div>
 </template>
 
@@ -66,11 +68,11 @@ h4 {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: all 0.4s;
+  transition: all 1s;
 }
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
-  filter: blur(1rem);
+  filter: brightness(1rem);
 }
 </style>
