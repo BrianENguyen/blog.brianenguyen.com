@@ -4,8 +4,6 @@ description: My main site was rebuilt with Nuxt! This blog documents why I made 
 date: 2023-09-25T15:00:00
 ---
 
-# Revamping Personal Site With Nuxt
-
 I am so happy to share that my main site, [brianenguyen.com](https://brianenguyen.com), has been rebuilt with Nuxt3!
 This website has gone through three major versions, and this version is
 the best one and my absolute favorite. This blog details the different

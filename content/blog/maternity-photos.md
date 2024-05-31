@@ -4,8 +4,6 @@ description:
 date: 2023-06-30T15:00:00
 ---
 
-# My First Maternity Photography Session
-
 > 30 Jun, 2023 · 1 min
 
 I had the privilege of documenting my friends who are

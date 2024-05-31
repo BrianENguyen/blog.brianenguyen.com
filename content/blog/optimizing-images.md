@@ -4,8 +4,6 @@ description: Images on your website are one of the biggest culprits to slowing d
 date: 2023-01-23T15:00:00
 ---
 
-# Optimizing Images for Your Website
-
 > 23 Jan, 2022 · 3 min
 
 The use of website images is one of the major factors that contribute to

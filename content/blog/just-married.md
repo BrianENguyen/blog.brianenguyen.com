@@ -4,8 +4,6 @@ description:
 date: 2023-12-24T15:00:00
 ---
 
-# Just Married! And Launching Our New Site
-
 > 24 Dec, 2023 · 1 min
 
 Hello! It's been a while since I've made any updates to my website. I have been

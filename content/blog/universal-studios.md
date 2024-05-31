@@ -5,8 +5,6 @@ date: 2023-07-04T15:00:00
 edited: 2023-07-08T15:00:00
 ---
 
-# Visiting Universal Studios Hollywood after 10+ Years
-
 > 4 Jul, 2023 · 10 min
 >
 > Last updated: 9 Jul, 2023

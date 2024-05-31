@@ -4,8 +4,6 @@ date: 2024-05-11T15:00:00
 description: This year marks my journey in taking fitness seriously and achieving my life-long goals
 ---
 
-# Starting My (Serious) Workout Journey
-
 I've always been active working out, but a big problem is that I never
 bothered to learn the in's and outs of fitness. This includes proper exercises
 and nutrition. I would perform my workout routine, eat whatever I wanted, and that's

@@ -4,8 +4,6 @@ description: This blog details Thu's first experience in Nebraska and the many a
 date: 2024-02-22T15:00:00
 ---
 
-# Adventures in Nebraska
-
 > Written in Brian's perspective unless noted otherwise
 
 Thu visited Nebraska for the first time while she was on winter break. This blog

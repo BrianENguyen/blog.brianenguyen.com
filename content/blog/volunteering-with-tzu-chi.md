@@ -4,8 +4,6 @@ description: I've been volunteering with Tzu Chi for at least five years. Learn 
 date: 2022-02-16T15:00:00
 ---
 
-# Volunteering with the Tzu Chi Foundation
-
 > 16 Feb, 2022 · 5 min
 
 In Chinese, &ldquo;tzu&rdquo; means &ldquo;compassion,&rdquo; and &ldquo;chi&rdquo; means &ldquo;relief.&rdquo; &ldquo;With open arms

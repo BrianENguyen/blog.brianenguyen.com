@@ -4,8 +4,6 @@ description: I visited Nebraska for a business trip, now I'm moving there in Jul
 date: 2023-06-15T15:00:00
 ---
 
-# Hello Nebraska!
-
 > 15 Jun, 2023 · 6 min
 
 I am excited to share that I will be **moving to Nebraska!**
