@@ -19,7 +19,7 @@ if (data.value) {
       <template v-slot="{ doc }">
         <article>
           <h1 class="text-3xl">{{ doc.title }}</h1>
-          <blockquote>
+          <blockquote class="italic">
             <p>{{ formatDate(doc.date) }}</p>
             <p v-if="doc.edited">
               {{ formatDate(doc.edited) }}
