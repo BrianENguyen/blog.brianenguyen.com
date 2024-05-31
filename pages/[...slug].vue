@@ -11,6 +11,11 @@ if (data.value) {
     randomBlogPath.value = randomBlog._path;
   }
 }
+
+function isBlogPath(path) {
+  const blogPathRegex = /^\/blog(\/.*)?$/;
+  return blogPathRegex.test(path);
+}
 </script>
 
 <template>
@@ -18,11 +23,13 @@ if (data.value) {
     <ContentDoc>
       <template v-slot="{ doc }">
         <article>
-          <h1 class="text-3xl">{{ doc.title }}</h1>
-          <blockquote class="italic">
-            <p>{{ formatDate(doc.date) }}</p>
-            <p v-if="doc.edited">Edited {{ formatDate(doc.edited) }}</p>
-          </blockquote>
+          <div v-if="isBlogPath(doc._path)">
+            <h1 class="text-3xl">{{ doc.title }}</h1>
+            <blockquote class="italic">
+              <p>{{ formatDate(doc.date) }}</p>
+              <p v-if="doc.edited">Edited {{ formatDate(doc.edited) }}</p>
+            </blockquote>
+          </div>
           <ContentRenderer :value="doc" />
         </article>
       </template>
