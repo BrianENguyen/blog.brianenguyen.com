@@ -68,7 +68,7 @@ h4 {
 
 .fade-enter-active,
 .fade-leave-active {
-  transition: all 1s;
+  transition: all 0.6s;
 }
 .fade-enter-from,
 .fade-leave-to {
