@@ -21,9 +21,7 @@ if (data.value) {
           <h1 class="text-3xl">{{ doc.title }}</h1>
           <blockquote class="italic">
             <p>{{ formatDate(doc.date) }}</p>
-            <p v-if="doc.edited">
-              {{ formatDate(doc.edited) }}
-            </p>
+            <p v-if="doc.edited">Edited {{ formatDate(doc.edited) }}</p>
           </blockquote>
           <ContentRenderer :value="doc" />
         </article>
