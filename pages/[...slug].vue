@@ -1,6 +1,8 @@
 <script setup>
+import { formatDate } from '~/composables/formatDate';
 const randomBlogPath = ref('');
 
+// Get random blog for 404 page
 const { data } = await useAsyncData('blog', () => queryContent('blog').find())
 if (data.value) {
   const randomNumber = Math.floor(Math.random() * ( data.value.length + 1));
@@ -14,6 +16,18 @@ if (data.value) {
 <template>
   <article class="nuxt-content">
     <ContentDoc>
+      <template v-slot="{ doc }">
+        <article>
+          <h1 class="text-3xl">{{ doc.title }}</h1>
+          <blockquote>
+            <p>{{ formatDate(doc.date) }}</p>
+            <p v-if="doc.edited">
+              {{ formatDate(doc.edited) }}
+            </p>
+          </blockquote>
+          <ContentRenderer :value="doc" />
+        </article>
+      </template>
       <template #not-found>
         <section class="text-center">
           <h1>Not found</h1>
