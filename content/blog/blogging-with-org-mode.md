@@ -5,8 +5,6 @@ date: 2022-06-30T15:00:00
 edited: 2024-05-11T11:12:00
 ---
 
-> 12 Jun, 2023 · 6 min
-
 _Edit:_ As don't use this method anymore as I have switched to Nuxt Content,
 but I will leave this here if anyone wants to refer to this blog to help
 with content management and org mode!

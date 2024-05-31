@@ -5,10 +5,6 @@ date: 2022-02-11T15:00:00
 edited: 2024-05-12T15:00:00
 ---
 
-> 11 Feb, 2022 · 1 min
-> <br>
-> Edited 12 May, 2024
-
 ## The Purpose
 
 The primary purposes of this blog site are the following:

@@ -4,8 +4,6 @@ description:
 date: 2023-06-30T15:00:00
 ---
 
-> 30 Jun, 2023 · 1 min
-
 I had the privilege of documenting my friends who are
 expecting their first baby. This is also my very first maternity photo shoot, and
 it was a memorable and enjoyable experience. All photos are taken with my new

@@ -4,8 +4,6 @@ description:
 date: 2023-12-24T15:00:00
 ---
 
-> 24 Dec, 2023 · 1 min
-
 Hello! It's been a while since I've made any updates to my website. I have been
 pretty busy with life and work, so I haven't had much time to do so.
 

@@ -5,10 +5,6 @@ date: 2023-07-04T15:00:00
 edited: 2023-07-08T15:00:00
 ---
 
-> 4 Jul, 2023 · 10 min
->
-> Last updated: 9 Jul, 2023
-
 I recently visited Universal Studios Hollywood on the 18th and 21st of June.
 This is the first time I have been there after more than 10 years. While some
 aspects remained unchanged, there were numerous alterations, for better or for
