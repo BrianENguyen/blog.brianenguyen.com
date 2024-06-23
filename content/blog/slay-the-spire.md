@@ -4,9 +4,9 @@ date: 2024-06-11T15:00:00
 description: Slay the Spire is (so far) my most played game of 2024. This blog documents my entire journey with the game and how it 
 ---
 
-Slay the Spire is (so far) my most played game of 2024. If you don't know
-anything about it, it's a turn-based roguelike card deckbuilder game where you
-would battle dangerous enemies using your cards that has different abilities.
+Slay the Spire is (so far) my most played game of 2024. If you don't know, it's
+a turn-based roguelike card deckbuilder game where you would battle dangerous
+enemies using your cards that has different abilities.
 Defeating enemies would make you advance floors. Advancing floors will reward
 you new cards, potions, and powerups to strengthen your character. The goal is 
 to reach the top of the Spire and defeat the final boss.
@@ -19,15 +19,15 @@ This blog is dedicated to my love of Slay The Spire and how I got addicted to it
 
 ## The Beginning
 
-I bought Slay the Spire back on 4th of July, 2020 when it was on sale for
-$12.49. It was on my wishlist ever since it was in early access, but it looked
-like I waited until for it to go on discount.
+I bought Slay the Spire back on the 4th of July, 2020 when it was on sale for
+$12.49. It was on my wishlist ever since it was in early access, but bought it
+until it went on discount.
 
 My favorite character at the time was the Silent because of her poison builds. I
-had a fondness of builds where I can just let damage-over-time builds do all the
-work for me while I just sit there and block incoming attacks
+had a fondness of builds where I can just let damage-over-time do of all the
+work for me while I sit there and block incoming attacks.
 
-As time went on, I dropped the game for other games I thought that was more
+As time went on, I dropped the game for other ones I thought that were more
 entertaining. I've beaten Act 3 a few times and completed up to Ascension 2, but
 never beyond that.
 
@@ -37,32 +37,32 @@ In 2024, I found myself constantly travelling by airplane a lot. I needed a game
 that was portable and would be enough to run on my T480 Thinkpad. I had an itch
 of playing a deckbuilder after seeing SpellRouge on Steam. I was on the verge of
 buying it until I completely remembered that I had Slay the Spire collecting
-dust in my library.
-
-I began playing it a lot during airplane travels, and I got hooked again. It
-definitely
+dust in my library. I decided to play it and got really hooked. I would spend 
+countless hours playing StS whenever I could, such as on breaks, lunch time, 
+and after work. I constantly thought of Slay The Spire and wanted to play it; 
+it has became an addiction.
 
 ## Improving My Run Consistency
 
 I was determined to learn more about the game since I was getting pretty
-frustrated in not improving my runs.
+frustrated in not improving my runs, which resulted in me dying a lot.
 
-Upon my return back to the Spire, one of the first and crucial / mandatory tip
-is to not take every card reward every time I've been presented with one. This
+Upon my return back to the Spire, I've learned a myriad of essential tips to
+improve my runs, such as:
+
+- not take every card reward every time I've been presented with one. This
 resulted in clogging up my deck, which lowers the chances of drawing the cards I
 want.
+- NOT play with a build in mind, meaning, do not play each run thinking that you
+will get the build that you want. The RNG in this game gives me cards and items
+that will most likely not be suitable with the build I want. 
+- it's better to take cards (even ones you don't want) that would win fights
+rather than skip them if they don't belong to my build.
 
 I also started following <a href="https://www.youtube.com/channel/UC1ig-JZyQoVpkOlyz9ODktg">Baalorlord
 on YouTube and on Twitch</a> and binged watch his runs. His videos are so
 entertaining and informative to watch, in that he caters to all players but
 mainly focus on helping newer ones.
-
-What I learned while playing StS was to NOT play with a build in mind, meaning,
-do not play each run thinking that you will get the build that you want. The RNG
-in this game gives me cards and items that will most likely not be suitable with
-the build I want. I also learned that in the early game, it's better to take
-cards (even ones you don't want) that would win fights rather than skip them if
-they don't belong to my build.
 
 ## Experiences With Each Character
 
@@ -80,8 +80,9 @@ than 100 damage for each Body Slam I play.
 
 Despite her initally being my favorite character, I eventually found her to be
 the most difficult. She has a terrible early-game run, where she has the most
-starting cards but they don't do enough damage. Nevertheless, I still really
-enjoy playing a poison build when I get the right cards
+starting cards but they don't do enough damage. I also think that she has really
+bad matchups in Act 1, especially elites and bosses.  Nevertheless, I still
+really enjoy playing a poison build when I get the right cards.
 
 ### The Defect
 
@@ -109,9 +110,70 @@ how many damage dealt to the enemy. This is always a must pick for me. Pairing
 this with her stance changes, Wallop can gain even more block for the amount of
 damage dealt, making this very consistent for damage and defense.
 
+## Screenshots
+
+Here are some of my favorite screenshots from my journey. *SPOILERS BELOW!*
+
+<figure>
+  <img src="https://res.cloudinary.com/buraiyen/image/upload/f_auto,q_auto/v1/blog.brianenguyen.com/slay-the-spire/100-poison" />
+  <figcaption>High amount of poison inflicted on an enemy</figcaption>
+</figure>
+
+<figure>
+  <img src="https://res.cloudinary.com/buraiyen/image/upload/f_auto,q_auto/v1/blog.brianenguyen.com/slay-the-spire/shiv-build" />
+  <figcaption>By best shiv build so far. 32 damage for just 0-cost cards!</figcaption>
+</figure>
+
+<figure>
+  <img src="https://res.cloudinary.com/buraiyen/image/upload/f_auto,q_auto/v1/blog.brianenguyen.com/slay-the-spire/safe-search" />
+  <figcaption>
+    I didn't realize it at the time, but this was a very rare event.  It starts
+    off with me looting a body for money. Every time I loot the body, the
+    chances of a powerful enemy that appears will increase. For every successful
+    loot,  I had the chance of escaping; however, I kept looting for more riches.
+    After three successful searches, this text appeared. How lucky I was! This
+    only ever happened to me once out of 150 hours of playing.
+  </figcaption> 
+</figure>
+
+<figure>
+  <img src="https://res.cloudinary.com/buraiyen/image/upload/f_auto,q_auto/v1/blog.brianenguyen.com/slay-the-spire/first-heart-battle" />
+  <figcaption>My first ever final boss battle. I was very proud of how I went from ~80 max HP to 167 max HP</figcaption>
+</figure>
+
+<figure>
+  <img src="https://res.cloudinary.com/buraiyen/image/upload/f_auto,q_auto/v1/blog.brianenguyen.com/slay-the-spire/ironclad-first-heart-defeat" />
+  <figcaption>
+    I defeated the Heart on my first ever battle with it. This is using my favorite Ironclad build I discussed earlier
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="https://res.cloudinary.com/buraiyen/image/upload/f_auto,q_auto/v1/blog.brianenguyen.com/slay-the-spire/silent-first-heart-defeat" />
+  <figcaption>
+    First time defeating the Heart with the Silent
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="https://res.cloudinary.com/buraiyen/image/upload/f_auto,q_auto/v1/blog.brianenguyen.com/slay-the-spire/defect-first-heart-defeat" />
+  <figcaption>
+    First time defeating the Heart with the Defect. I had so much damage from
+    the orbs, which I got an achievement from by accident
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="https://res.cloudinary.com/buraiyen/image/upload/f_auto,q_auto/v1/blog.brianenguyen.com/slay-the-spire/watcher-first-heart-defeat" />
+  <figcaption>
+    First time defeating the Heart with the Watcher. LOOK AT THAT DAMAGE!!!
+  </figcaption>
+</figure>
+
 ## Conclusion
 
 I'm so glad that I decided to get back into Slay The Spire. It has been one of,
-if not, my most played game of 2024. With Slay The Spire II coming out to early
-access in 2025, I aim to get full completion by getting all of the
-achievements beforehand.
+if not, my most played game of 2024. I aim to get all achievements in the game
+and beat the hardest difficulty. I am also very excited that Slay The Spire II
+coming in 2025 and I will get that immediately when it comes out. Until then,
+the grind continues!
