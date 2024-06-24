@@ -8,7 +8,10 @@ journey. I have definitely learned a lot so far.
 
 ## Being Stronger
 
-I am still currently lifting 20-lb dumbells and I can feel them being easier to use. I once tried to lift 15-lb dumbbells, which are
+I am still currently lifting 20-lb dumbells and I can feel them being easier to
+use. Out of curiosity, I once tried to lift 15-lb dumbbells to get a sense of 
+how much progress I've made, and they were so easy. I had a sense of 
+
 what I have been using for many months, and they felt so easy. I felt proud that
 I am being stronger.
 
@@ -28,8 +31,13 @@ My arms look like they are getting bigger, and I feel that I'm much stronger too
 
 ## New Workout Routine
 
-I have made a slight adjustmentThis is a high level overview of my workout routine:
+I have made a slight adjustments to my weekly workout routine. Below is a high level overview of what it is like. There are no specific days in which I perform them; just whichever comes next:
 
-+ Day
++ Day 1 - Arm lifting
++ Day 2 - Legs
++ Day 3 - Abs
++ Day 4 - Cardio
++ Day 5 - Yoga
++ Day 6 - Rest
 
 I don't plan on taking breaks
