@@ -5,19 +5,20 @@ date: 2024-11-12T15:00:00
 
 This is a November 2024 update of my workout progress since I started my
 "serious" workout journey. Although I stated that I would make monthly workout
-updates, I figured that blogs whenever I have significant progress or updates in
-my journey.
+updates, I figured that I would instead make these blogs whenever I have
+significant progress or updates in my journey.
 
 ## Being Stronger
 
 I am still currently lifting 20-lb dumbells and I can feel them being easier to
 use. Out of curiosity, I once tried to lift 15-lb dumbbells to get a sense of
 how much progress I've made, and they were so easy. I had a sense of
-accomplishment that the weights that I have lifted for months felt easy.
+accomplishment that I could lift these weights with ease after using them for
+months.
 
 When I was back in Nebraska, I got a barbell set and a bench, which I got used
-from my neighbor. The bench had way too much dust on it, so I sprayed oxyclean and
-hosed it down with water. Afterwards, it looks brand new
+from my neighbor. The bench had way too much dirt and dust on it, so I sprayed
+oxyclean and hosed it down with water. Afterwards, it looks brand new.
 
 This is actually the first time I've barbell benched in my life. Before, I was
 shy to use it at the gym; plus, the barbell benches were constantly used by
@@ -25,7 +26,7 @@ others. Using this gave me more confidence to use this at the gym again. I made
 sure to learn proper technique while bench. I can currently bench 85-lbs and
 hope to increase the weight soon.
 
-This story may seem small compared to other's, but I am very proud of how much I
+This story may seem small compared to others', but I am very proud of how much I
 have accomplished. My arms look bigger, and I feel that I'm much stronger too
 
 ## Other Things I've Learned or Done
